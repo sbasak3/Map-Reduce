@@ -124,7 +124,7 @@ hadoop jar /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.6
 hadoop fs -cat /user/cloudera/outputAssignment1/Movies/*
 
 
-### Write Reducer output to a file(required
+### Write Reducer output to a file(required)
 
 
 hadoop fs -getmerge /user/cloudera/outputAssignment1/Movies/* invertedIndex
